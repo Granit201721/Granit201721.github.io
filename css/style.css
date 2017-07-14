@@ -220,13 +220,15 @@ Modal window
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #402f44 url(../img/modal-bg.jpg) no-repeat center center;
   background-size: cover;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.modal-content {
+  background: #402f44 url(../img/modal-bg.jpg) no-repeat center center;
 }
 .cd-modal .modal-content {
   height: 100%;
