@@ -146,9 +146,6 @@ a:active, a:visited, a:focus {
 	color: #646464;
 	text-decoration: none;
 }
-.modal img {
-	width: 100%;
-}
 .modal-title {
 	font-weight: 800;
 	font-size: 2rem;
