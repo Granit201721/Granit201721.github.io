@@ -160,14 +160,14 @@ a:active, a:visited, a:focus {
 }
 .modal-btn {
 	display: inline-block;
-	color: #333;
-	border: 1px solid #333;
+	color: #fff;
+	border: 1px solid #fff;
 	padding: 10px 20px;
 	border-radius: 5px;
 }
 .modal-btn:hover {
-	background-color: #333;
-	color: #fff;
+	background-color: #fff;
+	color: #333;
 	text-decoration: none;
 }
 @media (min-width: 0px) and (max-width: 767px) {
