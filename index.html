@@ -120,10 +120,9 @@
     <script src="js/main.js"></script>
     <script>
      $(function() {
-      var link = $('.cd-modal-trigger"]');
+      var link = $('.cd-modal-trigger');
       link.on('click', function(event) {
         var work = $(this).attr('data-work');
-        var modal = $('.modal');
         $('.modal-content').load(work+'.html');
       });
      });
